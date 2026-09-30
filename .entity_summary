@@ -1,0 +1,5 @@
+- Überwachte Anwendungen (ueberwachte_anwendungen): name[string/text], beschreibung[string/textarea], umgebung[lookup/radio], laufzeit[lookup/select], version[string/text], verantwortlicher_vorname[string/text], verantwortlicher_nachname[string/text], status[lookup/select]
+- Schwellenwerte (schwellenwerte): anwendung[applookup/select], metrik[lookup/select], einheit[string/text], warngrenze[number], kritische_grenze[number], notizen[string/textarea]
+  → anwendung links to app_id 6abcb50f29a4754b70822854
+- Messungen (messungen): anwendung[applookup/select], zeitpunkt[date/datetimeminute], cpu_auslastung[number], heap_speicher_mb[number], gesamtspeicher_mb[number], event_loop_verzoegerung_ms[number], antwortzeit_ms[number], aktive_anfragen[number], fehleranzahl[number], bewertung[lookup/radio], notizen[string/textarea]
+  → anwendung links to app_id 6abcb50f29a4754b70822854

@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "ueberwachte_anwendungen",
+      "app_id": "6abcb50f29a4754b70822854",
+      "path": "/rest/apps/6abcb50f29a4754b70822854/records",
+      "allowed_fields": [
+        "name",
+        "beschreibung",
+        "umgebung",
+        "laufzeit",
+        "version",
+        "verantwortlicher_vorname",
+        "verantwortlicher_nachname",
+        "status"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Überwachte Anwendungen — Formular"
+    },
+    {
+      "entity": "schwellenwerte",
+      "app_id": "6abcb5139d56ccbaa43e98cb",
+      "path": "/rest/apps/6abcb5139d56ccbaa43e98cb/records",
+      "allowed_fields": [
+        "metrik",
+        "einheit",
+        "warngrenze",
+        "kritische_grenze",
+        "notizen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Schwellenwerte — Formular"
+    },
+    {
+      "entity": "messungen",
+      "app_id": "6abcb5148be783f494595865",
+      "path": "/rest/apps/6abcb5148be783f494595865/records",
+      "allowed_fields": [
+        "zeitpunkt",
+        "cpu_auslastung",
+        "heap_speicher_mb",
+        "gesamtspeicher_mb",
+        "event_loop_verzoegerung_ms",
+        "antwortzeit_ms",
+        "aktive_anfragen",
+        "fehleranzahl",
+        "bewertung",
+        "notizen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Messungen — Formular"
+    }
+  ]
+}
